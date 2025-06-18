@@ -1,12 +1,33 @@
-# React + Vite
+# 💸 exTra – Smart Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**exTra** is a cross-platform expense tracking web application built with **React**, **TailwindCSS**, **Redux**, and **Vite**. It helps individuals and businesses manage their expenses efficiently with features like voice/photo receipts, PDF exports, offline support, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔄 **Personal / Business Toggle**: Switch between personal and business mode.
+- 📦 **Offline Mode**: PWA-ready with service worker support for offline use.
+- 📊 **Charts & Dashboards**: Visualize expenses using Chart.js and custom dashboards.
+- 🧾 **PDF Export**: Download full reports with `react-to-pdf` or `@react-pdf/renderer`.
+- 🌐 **Cross-platform**: Works on mobile and desktop browsers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+| Frontend   | State Management | Styling     | Other Tools                     |
+|------------|------------------|-------------|----------------------------------|
+| React      | Redux            | TailwindCSS | Framer Motion, React Router     |
+| Vite       | React Redux      | CSS Modules | Chart.js, React Icons, Toastify |
+| PWA-ready  | HTML2PDF         |             | ESLint, Vite PWA Plugin         |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/exTra.git
+cd exTra
+npm install
+npm run dev
