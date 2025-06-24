@@ -1,6 +1,6 @@
-# 💸 exTra – Smart Expense Tracker App
+# 💸 ExpenseTracker – Smart Expense Tracker App
 
-**exTra** is a cross-platform expense tracking web application built with **React**, **TailwindCSS**, **Redux**, and **Vite**. It helps individuals and businesses manage their expenses efficiently with features like voice/photo receipts, PDF exports, offline support, and more.
+**ExpenseTracker** is a cross-platform expense tracking web application built with **React**, **TailwindCSS**, **Redux**, and **Vite**. It helps individuals and businesses manage their expenses efficiently with features like voice/photo receipts, PDF exports, offline support, and more.
 
 ---
 
