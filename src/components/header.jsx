@@ -21,11 +21,11 @@ export default function Header() {
                             </p>
                         </div>
                     </div>
-                    
+
                     <div className="flex items-center space-x-4">
-                        <div className="h-8 w-8 rounded-full bg-indigo-100 flex items-center justify-center">
-                            <span className="text-indigo-600 font-medium text-sm">IN</span>
-                        </div>
+                        <a href="https://easy-expense-documentation.netlify.app/" target='_blank' className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors text-sm font-medium">
+                            Read Documentation
+                        </a>
                     </div>
                 </div>
             </div>
