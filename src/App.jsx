@@ -12,7 +12,6 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaMoneyBillWave, FaChartLine, FaPiggyBank, FaCheckCircle } from 'react-icons/fa';
 import BackupRestore from './pages/backup.jsx'
-import Footer from './components/footer.jsx'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -140,7 +139,6 @@ function App() {
           </main>
         </div>
       </Router>
-      <Footer />
       <ToastContainer position="top-right" autoClose={3000} />
     </div>
   )
